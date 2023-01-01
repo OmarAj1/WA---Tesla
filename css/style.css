@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  line-height: 1.7em;
+  min-width: 850px;
+}
+
+a {
+  color: transparent;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  padding-bottom: 20px;
+}
+
+.container {
+  margin: auto;
+  overflow: hidden;
+}
+
+.text-primary {
+  color: #d26565;
+}
+
+
+.btn {
+  color: white;
+  display: inline-block;
+  background: transparent;
+  padding: 15px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: transparent;
+  backdrop-filter: saturate(180%) blur(10px);
+  border-radius: 10%;
+}
+
+
+
+
+
+#navbar {
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+nav {
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+#navbar ul li,
+#up-btns {
+  float: right;
+  font-size: 13px;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  list-style-type: none;
+  color: white;
+  font-weight: normal;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  right: auto;
+  left: auto;
+  border-radius: 10%;
+}
+
+#navbar ul li a:hover {
+  background: transparent;
+  backdrop-filter: saturate(110%) blur(5px);
+  border-radius: 10%;
+
+
+}
+
+#logo {
+  width: 80px;
+  height: 10px;
+
+}
+
+#showcase {
+  background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD') no-repeat center center/cover;
+  height: 700px;
+}
+.pik 
+{
+    background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD') no-repeat center center/cover;
+    height: 700px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 40px;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+#home-info {
+  height: 800px;
+  overflow: hidden;
+}
+
+
+
+#home-info .info-content {
+  float: right;
+  width: 30%;
+  height: 100%;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* Add this attribute to the element that needs a tooltip */
+[data-chat-tooltip] {
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+/* Show tooltip content on hover */
+.adminActions {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 70%;
+  background: url('Screenshot\ 2022-12-31\ 193559.png') no-repeat;
+  min-height: 100%;
+  max-width: 1200px;
+  object-fit: cover;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.adminButton {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(67, 83, 143, .8);
+  border-radius: 50%;
+  display: block;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.adminActions a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container .showcase-content a {
+  color: white;
+  text-decoration: underline;
+}
+
+.adminToggle {
+  -webkit-appearance: none;
+  position: absolute;
+}
+
+.box {
+  float: left;
+  width: 18.3%;
+  text-align: center;
+}
+
+#features {
+  margin: auto;
+  width: 40%;
+  padding-top: 350px;
+  min-width: 200px;
+}
+
+#difbtn:active {
+  background: white;
+  color: black;
+}
+
+#difbtn:hover {
+  background: white;
+  color: black;
+}
+
+#difbtn {
+
+  border-radius: 20px;
+  border: solid 1px white;
+  background-color: transparent;
+  display: inline;
+  width: 200px;
+  border-radius: 3px;
+}
+
+#diffbtn:active {
+  background: black;
+  color: white;
+}
+
+#diffbtn:hover {
+  background: black;
+  color: white;
+}
+
+#diffbtn {
+  border-radius: 20px;
+  border: solid 1px black;
+  background-color: transparent;
+  display: inline;
+  width: 200px;
+  border-radius: 3px;
+  color: black;
+}
+.goog {
+  background: transparent;
+  color: #fff;
+}
+.goog h3 {
+  font-size: 20px;
+  display: inline-block;
+}
+
+#miles {
+  font-size: 14px;
+}
+
+#last-section .box
+{
+    width: 33%;
+    padding-top: 40% ;  
+    line-height: 1.2em;
+
+}
+
+
+h4 {
+  font-size: 8px;
+  font-weight: normal;
+}
+
+#speedometer {
+  width: 30px;
+  height: 30px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(299deg) brightness(202%) contrast(102%);
+}
+.info-content a {
+  text-decoration: underline;
+  color: black;
+}
+
